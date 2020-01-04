@@ -7,5 +7,8 @@
     "@babel/cli": "^7.7.7",
     "@babel/core": "^7.7.7",
     "@babel/preset-env": "^7.7.7"
-  }
+  },
+  "scripts": {
+    "dev": "babel ./main.js -o ./bundle.js -w"
+  } 
 }
